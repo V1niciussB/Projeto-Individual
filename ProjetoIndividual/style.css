@@ -1,0 +1,176 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Oxanium', sans-serif;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #0070a7;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f3f3f3;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00000013;
+    padding: 0px 50px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+
+.logonavbar {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.logonavbar img {
+    width: 90px;
+
+
+}
+
+.logonavbar ul {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.logonavbar ul li {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logonavbar ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 130%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul a:hover {
+    
+    border-bottom: solid 1px #006ab1;
+}
+
+.header .fakebutton {
+    width: 127px;
+    height: 28px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header .fakebutton:hover {
+    border-bottom: solid 1px #006ab1;
+}
+
+.buttonslogcad {
+    width: 21%;
+    display: flex;
+}
+
+.banner{
+    width: 100vw;
+    height: 92vh;
+    background-image: url(/assets/banner.png);
+    background-size: cover;
+}
+
+.mensage{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0 85px;
+}
+
+.mensage h2{
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 50;
+    font-style:italic;
+}
+
+
+
+.mensage p {
+    color: whitesmoke;
+    margin: 1rem 5px;
+
+}
+
+.mensage .fakebutton {
+    width: 176px;
+    height: 38px;
+    background-color: transparent;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mensage .fakebutton a {
+    width: 100%;
+    height: 100%;
+    color: #00c8ff;
+    border: solid 1px #00c8ff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: .2s ease;
+
+}
+
+.fakebutton a:hover {
+    width: 100%;
+    height: 100%;
+    color: #00000096;
+    border-radius: 5px;
+    background-color: #7fdaf4;
+    box-shadow: 0 0 5px #00c8ff;   
+}
