@@ -4,9 +4,14 @@
     --corTitulo: #000D1D;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+}
+
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -31,6 +36,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -257,6 +263,10 @@ header .fakebutton:hover {
     gap: 1rem;
 }
 
+.info p{
+    line-height: 25px;
+}
+
 .title .icon {
     width: 40px;
     height: 40px;
@@ -269,7 +279,8 @@ header .fakebutton:hover {
 
 .title h1 {
     color: #01B5F2;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .natacao {
@@ -280,6 +291,7 @@ header .fakebutton:hover {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin: 0;
 }
 
 .corpoN {
@@ -303,6 +315,7 @@ header .fakebutton:hover {
     justify-content: center;
     color: white;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .nataInfo {
@@ -317,7 +330,7 @@ header .fakebutton:hover {
 .nataInfo h3{
     color: #00c8ff;
     font-size: 20px;
-    font-style: bold;
+    font-weight: 700;
     gap: 1rem;
 }
 
