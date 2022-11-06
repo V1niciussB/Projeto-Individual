@@ -7,13 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <script src="https://kit.fontawesome.com/c0298d0f9d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"> </script>
     <title> Natação </title>
 </head>
-
-<body>
-
 
     <div class="block">
         <header>
@@ -38,9 +36,12 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="beneficios">
         <div class="nadador">
-            <img src="assets/nadadorXing.png" alt="">
+            <img class="atleta" src="assets/nadadorXing.png" alt="">
         </div>
         <div class="beneficioM">
 
@@ -89,6 +90,7 @@
     </div>
 
 
+
     <div class="natacao">
         <div class="corpoN">
             <div class="corpoTexto">
@@ -114,6 +116,143 @@
     </div>
 
 
-</body>
+    <div class="modalidade">
+        <h3> Modalidades </h3>
+        <div class="cardExp">
+            <div class="nado b">
+            </div>
+            <div class="nado f">
+            </div>
+            <div class="nado c">
+            </div>
+            <div class="nado p">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bloco dos Atletas -->
+
+    <div class="atletas">
+        <h2> Atletas </h2>
+
+        <!-- Bloco Atleta 01 -->
+        <div class="corpoAtleta">
+            <div class="caixaAtleta">
+
+                <!-- Imagem do Atleta 01 -->
+                <div class="caixaImg">
+                    <img src="assets/phelps.png" alt="">
+                </div>
+
+                <!-- Infos do Atleta 01 -->
+                <div class="infoAtleta">
+                    <div class="containerInfo">
+                        <div class="medalha">
+                            <i class="fa-solid fa-medal"></i>
+                            <h3> 30 Medalhas </h3>
+                        </div>
+                        <div class="nome">
+                            <h1> Michael <br> <b> Phelps </b></h1>
+                        </div>
+                        <div class="nacionalidade">
+                            <img src="assets/flagEua.png" alt="">
+                            <h3> AMERICANO </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bloco do Atleta 02 -->
+            <div class="caixaAtleta">
+
+                <!-- Info dos Atletas -->
+                <div class="infoAtleta">
+                    <div class="containerInfo">
+                        <div class="medalha">
+                            <i class="fa-solid fa-medal"></i>
+                            <h3> 30 Medalhas </h3>
+                        </div>
+                        <div class="nome">
+                            <h1> Michael <br> <b> Phelps </b></h1>
+                        </div>
+                        <div class="nacionalidade">
+                            <img src="assets/flagEua.png" alt="">
+                            <h3> AMERICANO </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagem Atleta 02 -->
+                <div class="caixaImg">
+                    <img src="assets/phelps.png" alt="">
+                </div>
+            </div>
+
+            <!-- Bloco do Atleta 03 -->
+            <div class="caixaAtleta">
+                <!-- Imagem Atleta 03 -->
+                <div class="caixaImg">
+                    <img src="assets/phelps.png" alt="">
+                </div>
+
+
+                <!-- Info do Atleta 03 -->
+                <div class="infoAtleta">
+                    <div class="containerInfo">
+                        <div class="medalha">
+                            <i class="fa-solid fa-medal"></i>
+                            <h3> 30 Medalhas </h3>
+                        </div>
+                        <div class="nome">
+                            <h1> Michael <br> <b> Phelps </b></h1>
+                        </div>
+                        <div class="nacionalidade">
+                            <img src="assets/flagEua.png" alt="">
+                            <h3> AMERICANO </h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    </body>
 
 </html>
+
+<script>
+    ScrollReveal().reveal(".atleta", {
+        duration: 1000,
+        distance: "500px",
+        delay: 100,
+    })
+
+    ScrollReveal().reveal(".tituloB", {
+        duration: 1000,
+        distance: "500px",
+        delay: 100,
+    })
+
+    ScrollReveal().reveal(".info", {
+        duration: 1000,
+        distance: "500px",
+        delay: 100,
+    })
+
+    ScrollReveal().reveal(".info", {
+        duration: 1000,
+        distance: "500px",
+        delay: 100,
+    })
+
+    ScrollReveal().reveal(".caixaAtleta", {
+        duration: 1000,
+        distance: "500px",
+        delay: 100,
+    })
+
+</script>
