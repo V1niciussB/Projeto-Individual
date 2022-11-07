@@ -132,7 +132,7 @@ header .fakebutton:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/Projeto-Individual/ProjetoIndividual/assets/banner.png);
+    background-image: url(../assets/banner.png);
     background-size: cover;
     background-position-y: -5rem;
 }
@@ -290,7 +290,6 @@ header .fakebutton:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     margin: 0;
 }
 
@@ -305,8 +304,9 @@ header .fakebutton:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
     width: 60%;
+    margin-bottom: 60px;
 }
 
 .corpoTexto h3 {
@@ -316,6 +316,7 @@ header .fakebutton:hover {
     color: white;
     font-size: 50px;
     font-weight: 700;
+    margin-top: 60px;
 }
 
 .nataInfo {
@@ -361,7 +362,7 @@ header .fakebutton:hover {
     gap: 1rem;
 }
 
-.modalidade h3{
+.modalidade h3 {
     margin-top: 3rem;
     font-size: 50px;
     font-weight: 700;
@@ -385,7 +386,7 @@ header .fakebutton:hover {
     transition: .2s ease;
 }
 
-.nado:hover{
+.nado:hover {
     bottom: 10px;
 }
 
@@ -413,7 +414,7 @@ header .fakebutton:hover {
     background-position: center;
 }
 
-.atletas{
+.atletas {
     background-color: #000D1D;
     display: flex;
     justify-content: center;
@@ -423,14 +424,14 @@ header .fakebutton:hover {
     padding: 100px;
 }
 
-.atletas h2{
+.atletas h2 {
     font-size: 50px;
     font-weight: 700;
     color: #00c8ff;
     margin-bottom: 5rem;
 }
 
-.corpoAtleta{
+.corpoAtleta {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -440,25 +441,25 @@ header .fakebutton:hover {
     gap: 7rem;
 }
 
-.caixaAtleta{
+.caixaAtleta {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.caixaImg{
+.caixaImg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30%;
 }
 
-.caixaImg img{
+.caixaImg img {
     width: 300px;
 }
 
-.infoAtleta{
+.infoAtleta {
     width: 40%;
     height: 300px;
     display: flex;
@@ -467,7 +468,7 @@ header .fakebutton:hover {
     flex-direction: column;
 }
 
-.containerInfo{
+.containerInfo {
     width: 70%;
     display: flex;
     justify-content: center;
@@ -476,24 +477,25 @@ header .fakebutton:hover {
     gap: 1rem;
 }
 
-.medalha{
+.medalha {
     width: 60%;
     display: flex;
     justify-content: flex-start;
-    align-items: center ;
+    align-items: center;
     gap: 0.5rem;
     color: white;
 }
 
-.medalha h3{
+.medalha h3 {
     font-weight: 300;
 }
-.medalha i{
-    color:#00c8ff;
+
+.medalha i {
+    color: #00c8ff;
 }
 
 
-.nome{
+.nome {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -501,30 +503,138 @@ header .fakebutton:hover {
     flex-direction: column;
 }
 
-.nome h1{
+.nome h1 {
     font-size: 50px;
     font-weight: 400;
     line-height: 70px;
     color: white;
 }
 
-.nome h1 b{
+.nome h1 b {
     font-size: 85px;
     font-weight: 700;
     color: #00c8ff;
 }
 
 
-.nacionalidade{
+.nacionalidade {
     width: 80%;
     display: flex;
     justify-content: flex-start;
-    align-items: center ;
+    align-items: center;
     gap: 0.5rem;
     letter-spacing: 1px;
     color: white;
 }
 
-.nacionalidade img{
+.nacionalidade img {
     width: 20px;
+}
+
+
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.952);
+    padding: 70px 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #00c8ff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #00c8ff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 85px;
+}
+
+.footer-col ul li:not(:last child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s eases;
+    border: none;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a {
+    color: #00c8ff;
+    background-color: #000D1D;
+}
+
+
+.donw1 {
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    box-shadow: 0px 0px 10px 5px #4f4f4f4c;
+
+}
+
+.donw1 ion-icon {
+    height: 30px;
+    width: 30px;
 }
