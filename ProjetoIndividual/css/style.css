@@ -158,7 +158,7 @@ header .fakebutton:hover {
 
 }
 
-.mensagem .fakebutton {
+.fakebutton {
     width: 176px;
     height: 38px;
     background-color: #40cef6;
@@ -170,7 +170,7 @@ header .fakebutton:hover {
     cursor: pointer;
 }
 
-.mensagem .fakebutton a {
+.fakebutton a {
     text-decoration: none;
     transition: .2s ease;
     color: #000000;
