@@ -392,7 +392,7 @@ header .fakebutton:hover {
     width: 100%;
     padding: 1rem;
     padding-bottom: 2rem;
-    background: linear-gradient(0deg, #00c8ff 0%, rgba(0, 212, 255, 0) 100%);
+    background: linear-gradient(0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,30 +400,40 @@ header .fakebutton:hover {
 }
 
 .nado .info h1{
+    width: 350px;
     opacity: 0;
     font-size: 1.5rem;
     font-weight: 700;
-    transition: .5s ease; 
+    transition: .1s ease; 
     color: var(--corTitulo);
 }
 
 .nado .info p{
+    width: 350px;
     opacity: 0;
-    transition: .5s ease;
+    transition: .1s ease;
     color: var(--corTitulo);
 }
 
 
 .nado:hover .info h1{
     opacity: 1;
+    transition: .5s ease;
+    transition-delay: .1s;
 }
 
 .nado:hover .info p{
     opacity: 1;
+    transition: .5s ease;
+    transition-delay: .1s;
 }
 
 .nado:hover {
-    width: 30%;
+    width: 400px;
+}
+
+.nado:hover .info{
+    background: linear-gradient(0deg, #00c8ff 0%, rgba(0, 212, 255, 0) 100%);
 }
 
 .b {
@@ -629,6 +639,8 @@ header .fakebutton:hover {
     transition: all 0.3s eases;
     border: none;  
     line-height: 25px;
+    padding: 0px;
+    transition: .1s ease;
 }
 
 .footer-col ul li a:hover {
