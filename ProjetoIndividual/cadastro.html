@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/cadastroStyle.css">
+    <link rel="stylesheet" href="css/cadastroStyle.css">
     <script src="js/script.js"> </script>
     <title> Natação </title>
 </head>
 
+
+<!-- navezona da massa -->
 <div class="block">
     <header>
         <div class="logonavbar">
@@ -24,26 +26,35 @@
             </ul>
         </div>
         <div class="buttonslogcad">
-            <a class="fakebutton" href="#">LOGIN</a>
+            <a class="fakebutton" href="login.html">LOGIN</a>
             <a class="fakebutton" href="#">CADASTRE-SE</a>
         </div>
     </header>
 
 
+    <!-- Inicio do form -->
     <div class="container">
         <div id="form" class="form">
-
             <h2>Cadastro do Nadador</h2>
+
             <div class="campos">
                 <div class="campo">
                     <label for="nome_nadador">Nome:</label>
                     <input type="text" id="nome" placeholder="Nome do Nadador">
                 </div>
+
                 <div class="campo">
-                    <label for="sobrenome">Sobrenome:</label>
-                    <input type="text " id="sobrenome" placeholder="Digite seu sobrenome">
+                    <label for="modalidade"> Modalidade: </label>
+                    <select name="" id="campo-sel">
+                        <option value="">-- Selecione --</option>
+                        <option value=""> LIVRE </option>
+                        <option value=""> COSTAS </option>
+                        <option value=""> PEITO </option>
+                        <option value=""> BORBOLETA </option>
+                    </select>
                 </div>
             </div>
+
 
             <div class="campos">
                 <div class="campo">
@@ -57,6 +68,7 @@
                 </div>
             </div>
 
+
             <div class="campos">
                 <div class="campo">
                     <label for="genero"> Gênero: </label>
@@ -68,39 +80,34 @@
                 </div>
 
                 <div class="campo">
-                    <label for="cidade">Email:</label>
-                    <input id="cidade_empresa" placeholder="nadador@academy.com">
+                    <label for="email">Email:</label>
+                    <input id="email" placeholder="nadador@academy.com">
                 </div>
             </div>
 
+            
             <div class="campos">
                 <div class="campo">
-                    <label for="cep"> Senha: </label>
-                    <input id="cep_empresa" placeholder="XXXXX-XX">
+                    <label for="senha"> Senha: </label>
+                    <input id="senha" placeholder="***********">
                 </div>
 
                 <div class="campo">
-                    <label for="cidade"> Confimação de Senha: </label>
-                    <input id="cidade_empresa" placeholder="***********">
+                    <label for="confirm"> Confimação de Senha: </label>
+                    <input id="confirmSenha" placeholder="***********">
                 </div>
             </div>
 
+
             <div class="campos">
                 <div class="campo">
-                    <label for="cep"> Telefone: </label>
-                    <input id="cep_empresa" placeholder="XXXXX-XX">
+                    <label for="tel"> Telefone: </label>
+                    <input id="telefone" placeholder="11-99999-9999">
                 </div>
 
                 <div class="campo">
                     <button onclick="user()">Registre-se</button>
                 </div>
             </div>
-            
-            
-
-              
-
-
             </div>
-
         </div>

@@ -41,7 +41,7 @@ body {
 
 header {
     width: 100%;
-    height: 70px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +59,7 @@ header.sticky {
 }
 
 .logonavbar {
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -74,15 +74,14 @@ header.sticky {
 }
 
 .logonavbar ul {
-    width: 80%;
-    height: 50%;
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }
 
 .logonavbar ul li {
-    width: 100px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -90,18 +89,16 @@ header.sticky {
 }
 
 .logonavbar ul a {
+    text-align: center;
     color: white;
     text-decoration: none;
     font-size: 14px;
-    width: 130%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: max-content;  
+    border-bottom: solid 0 transparent;
+    transition: .2s ease;
 }
 
 ul a:hover {
-
     border-bottom: solid 1px #006ab1;
 }
 
